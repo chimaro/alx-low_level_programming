@@ -2,21 +2,24 @@
 #include <stdlib.h>
 
 /**
-* main - returns an alphabet in reverse order
+* main - return single integer from 0-10
 *
 * Return: Always 0 (Success)
 */
 
 int main(void)
-{
-int ch = 'z';
 
-while (ch >= 'a')
 {
-putchar(ch);
-ch--;
+int num = '0';
+
+while (num <= '9')
+{
+putchar(num);
+num++;
 }
+
 putchar('\n');
 
 return (0);
+
 }
